@@ -26,8 +26,8 @@ This repository implements a robust pipeline for identifying stopping and moving
 
 ## Repository Structure
 
-gps-dbscan-te/
-
+```text
+two-stage-dbscan-te-framework/
 ├── archive/
 ├── data/
 │ ├── raw/                     # Raw GPS data files (not included)
@@ -53,7 +53,7 @@ gps-dbscan-te/
 ├── visuals/                   # Visualization outputs
 ├── .gitignore
 └── README.md
-
+```
 
 ## Data Requirements
 

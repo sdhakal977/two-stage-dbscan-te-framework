@@ -27,6 +27,7 @@ This repository implements a robust pipeline for identifying stopping and moving
 ## Repository Structure
 
 ```text
+
 two-stage-dbscan-te-framework/
 ├── archive/
 ├── data/

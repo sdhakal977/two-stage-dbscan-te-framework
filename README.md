@@ -1,4 +1,4 @@
-# GPS Data Processing: Two-Step DBSCAN-TE with Post-Processing
+# Trajectory Segmentation Framework: Two-Step DBSCAN-TE with Post-Processing
 
 
 ## Overview

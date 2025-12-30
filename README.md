@@ -33,7 +33,7 @@ two-stage-dbscan-te-framework/
 │ ├── raw/                     # Raw GPS data files (not included)
 │ └── processed/               # Processed outputs
 ├── data_schema/               # Input data specifications
-├── docs/                      # Documentation and paper summaries
+├── docs/                      # Documentation and literature summaries
 ├── R/                         # Core R functions
 │ ├── 01_utilities.R
 │ ├── 02_dbscan_utils.R
@@ -48,7 +48,7 @@ two-stage-dbscan-te-framework/
 │   └── 04_post_processing_main.R
 ├── scripts/                   # Execution scripts
 │ ├── 2stage_dbscan_te.R
-│ └── run_processing.R
+│ └── visualize_clusters_leaflet.R
 ├── visuals/                   # Visualization outputs
 ├── .gitignore
 └── README.md

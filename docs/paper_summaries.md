@@ -106,21 +106,15 @@
 
 
 
-| Feature | Gong et al. (2018) | Wang et al. (2022) | Our Implementation |
+| Feature               | Gong et al. (2018) | Wang et al. (2022) | Our Implementation |
+|-----------------------|-------------------|-------------------|--------------------|
+| **Clustering Method**     | DBSCAN            | DPCC              | DBSCAN (two-step)  |
+| **Steps**                 | Single-step       | Two-step          | Two-step           |
+| **Post-processing**       | SVM               | None              | Custom filters     |
+| **Temporal Constraints**  | Yes               | Yes               | Yes                |
+| **Entropy Constraints**   | Yes               | Yes               | Yes                |
+| **Additional Filters**    | None              | None              | Gradient, Proximity, Segment-length |
 
-|---------|-------------------|-------------------|-------------------|
-
-| **Clustering Method** | DBSCAN | DPCC | DBSCAN (two-step) |
-
-| **Steps** | Single-step | Two-step | Two-step |
-
-| **Post-processing** | SVM | None | Custom filters |
-
-| **Temporal Constraints** | Yes | Yes | Yes |
-
-| **Entropy Constraints** | Yes | Yes | Yes |
-
-| **Additional Filters** | None | None | Gradient, Proximity, Segment-length |
 
 
 

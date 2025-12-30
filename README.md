@@ -42,7 +42,6 @@ two-stage-dbscan-te-framework/
 │ ├── 05_fun_entropy.R
 │ ├── 06_process_points.R         
 │ └── post_processing/         # Post-processing modules
-│   ├── 01_utilities.R
 │   ├── 01_gradient_filter.R
 │   ├── 02_close_clusters.R
 │   ├── 03_long_segments.R
